@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+    database:
+        container_name: psql-dev
+        image: postgres:12-alpine
+        env_file:
+            - env
+        volumes:
+            - pgdata:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        # restart: always
+
+volumes:
+    pgdata:
