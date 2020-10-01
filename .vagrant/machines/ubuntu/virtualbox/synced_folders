@@ -1,1 +1,0 @@
-{"virtualbox":{"/Project":{"owner":"vagrant","group":"vagrant","mount_options":["dmode=775,fmode=664","uid=1000","gid=1000"],"guestpath":"/Project","hostpath":"C:/Dev/Project","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Dev","disabled":false,"__vagrantfile":true}}}
